@@ -19,7 +19,7 @@ def random_letter(word=None):
     else:
         letters = string.ascii_letters
 
-    index = random.randint(0, len(letters))
+    index = random.randint(0, len(letters)-1)
     return letters[index]
 
 
